@@ -1,0 +1,102 @@
+@import url(reset.css);
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap");
+section {
+    /* padding-bottom: 5px; */
+    box-sizing: border-box;
+}
+.sec_wrap {
+    /* padding: 0 240px;
+    box-sizing: border-box; */
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+.sec_wrap_b {
+    /* padding: 0 240px;
+    box-sizing: border-box; */
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #0c0c0c;
+}
+h1 {
+    font-size: 60px;
+}
+h2 {
+    font-size: 40px;
+}
+h3 {
+    font-size: 32px;
+}
+h4 {
+    font-size: 22px;
+}
+p {
+    font-size: 16px;
+}
+.subTitle {
+    transform: translateY(100%);
+    display: flex;
+    gap: 20px;
+}
+.subTitle > h1 {
+    font-family: "Roboto", sans-serif;
+}
+.subTitle > h1:nth-child(1) {
+    color: #ee4b3c;
+}
+.subTitle > h1:nth-child(2) {
+    color: #f9b6b0;
+}
+.subTitle > h1:nth-child(3) {
+    color: #1874c1;
+}
+.subTitle > h1:nth-child(4) {
+    color: #ffbc16;
+}
+.subTitle > h1:nth-child(5) {
+    color: #1ea849;
+}
+.subTitle > h1:nth-child(6) {
+    color: #ee4b3c;
+}
+.subTitle > h1:nth-child(7) {
+    color: #f9b6b0;
+}
+.subTitle > h1:nth-child(8) {
+    color: #1874c1;
+}
+.subTitle > h1:nth-child(9) {
+    color: #ffbc16;
+}
+.subTitle > h1:nth-child(10) {
+    color: #1ea849;
+}
+.tabBtn {
+    width: 170px;
+    padding: 20px 0;
+}
+
+@media (max-width: 1440px) {
+    .sec_wrap {
+        width: 100%;
+        padding: 0 150px;
+        box-sizing: border-box;
+    }
+}
+@media (max-width: 1100px) {
+    .sec_wrap {
+        padding: 0 70px;
+    }
+    h3 {
+        font-size: 28px;
+        font-weight: 900;
+    }
+    h4 {
+        font-size: 18px;
+        font-weight: 900;
+    }
+    p {
+        font-size: 16px;
+    }
+}
